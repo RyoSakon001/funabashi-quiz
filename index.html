@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3択クイズゲーム</title>
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <!-- メインメニュー -->
+        <div class="menu-container" id="menu-container">
+            <h1>3択クイズゲーム</h1>
+            <div class="logo-container">
+                <img src="./img/logo.png" alt="クイズゲームロゴ" class="logo-image">
+            </div>
+            <div class="menu-buttons">
+                <button class="button" id="play-btn">プレイ</button>
+                <button class="button orange-button" id="author-btn">作者について</button>
+            </div>
+        </div>
+        
+        <!-- 作者プロフィール -->
+        <div class="author-container" id="author-container">
+            <h1>作者プロフィール</h1>
+            <img src="./img/profile.png" alt="作者の写真" class="author-image">
+            <div class="author-name">左近りょう</div>
+            <div class="author-bio">
+                プログラミング歴5年のWebデベロッパー。モバイルゲームとクイズアプリの開発を専門としています。好きな言語はJavaScriptとPython。休日は山登りと読書を楽しんでいます。
+            </div>
+            <button class="button" id="back-to-menu-btn">メニューに戻る</button>
+        </div>
+        
+        <!-- クイズ画面 -->
+        <div class="quiz-container" id="quiz-container" style="display: none;">
+            <div class="quiz-header">
+                <img src="./img/logo.png" alt="クイズゲームロゴ" class="logo-image quiz-logo">
+                <h1>3択クイズゲーム</h1>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="stats">
+                <div>問題: <span id="question-number">1</span>/10</div>
+                <div>スコア: <span id="score">0</span></div>
+            </div>
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+            <button class="button red-button" id="quiz-to-menu-btn">メニューに戻る</button>
+        </div>
+        
+        <!-- 結果画面 -->
+        <div class="result-container" id="result-container">
+            <h1>クイズ終了!</h1>
+            <div class="logo-container">
+                <img src="./img/logo.png" alt="クイズゲームロゴ" class="logo-image quiz-logo">
+            </div>
+            <div class="score">あなたのスコア: <span id="final-score">0</span>/100点</div>
+            <div class="button-row">
+                <button class="button green-button" id="restart-btn">もう一度プレイ</button>
+                <button class="button" id="menu-btn">メニューに戻る</button>
+            </div>
+        </div>
+        
+        <!-- モーダルウィンドウ -->
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal">
+                <div class="result-icon" id="result-icon"></div>
+                <div class="result-title" id="result-title"></div>
+                <div class="explanation" id="explanation"></div>
+                <button class="button" id="next-btn">次へ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
