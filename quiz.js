@@ -94,6 +94,8 @@ const quizToMenuButton = document.getElementById("quiz-to-menu-btn");
 const restartButton = document.getElementById("restart-btn");
 const menuButton = document.getElementById("menu-btn");
 
+const resultMessageElement = document.getElementById("result-message");
+
 // クイズを開始する関数
 function startQuiz() {
     currentQuestion = 0;
@@ -219,6 +221,30 @@ function showAuthorProfile() {
 // 確認なしにメニューに戻る（クイズ中断）
 function quitQuiz() {
     goToMenu();
+}
+
+// スコアに応じたメッセージを返す関数
+function getScoreMessage(score) {
+    if (score === 100) {
+        return "完璧！あなたは本当のクイズマスターです！全問正解おめでとうございます！";
+    } else if (score >= 70 && score <= 90) {
+        return "素晴らしい結果です！あと少しで満点でした。次回は完璧を目指しましょう！";
+    } else if (score >= 40 && score <= 60) {
+        return "まずまずの結果です。もう少し頑張れば高得点も夢ではありません！";
+    } else {
+        return "まだまだ伸びしろがあります！もう一度チャレンジして知識を増やしましょう！";
+    }
+}
+
+// クイズを終了する関数を修正
+function endQuiz() {
+    quizContainer.style.display = "none";
+    resultContainer.style.display = "block";
+    progressBar.style.width = "100%";
+    quizCompleted = true;
+    
+    // スコアに応じたメッセージを表示
+    resultMessageElement.textContent = getScoreMessage(score);
 }
 
 // イベントリスナーの設定

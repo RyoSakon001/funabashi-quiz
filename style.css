@@ -239,3 +239,14 @@ h1 {
 .button-row .button {
   flex: 1;
 }
+
+.result-message {
+  font-size: 18px;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 500;
+}
