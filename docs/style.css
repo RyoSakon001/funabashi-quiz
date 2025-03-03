@@ -42,9 +42,9 @@ h1 {
   object-fit: cover;
   border-radius: 10px;
 }
-.quiz-logo {
-  width: 120px;
-  height: 120px;
+.quiz-image {
+  width: 150px;
+  height: 150px;
   margin-bottom: 10px;
 }
 .question {
