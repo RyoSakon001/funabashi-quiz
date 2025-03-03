@@ -5,70 +5,70 @@ const quizData = [
         options: ["東京都", "千葉県", "埼玉県"],
         answer: 1,
         explanation: "船橋市は千葉県に属しています。",
-        imagePath: "./img/quiz/chizu.png" // 画像パスを追加
+        imagePath: "./img/quiz/chizu.png"
     },
     {
         question: "船橋市にはいくつの路線が通っている？",
         options: ["５路線", "７路線", "９路線"],
         answer: 2,
         explanation: "総武線、武蔵野線、京葉線、京成本線、松戸線（新京成線）、東武アーバンパークライン、東西線、東葉高速線、北総線の９路線が通っています。",
-        imagePath: "./img/quiz/senro.png" // 画像パスを追加
+        imagePath: "./img/quiz/senro.png"
     },
     {
         question: "船橋市の名産品として有名な野菜は？",
         options: ["じゃがいも", "こまつな", "だいこん"],
         answer: 1,
         explanation: "船橋市の名産品として小松菜が有名です。",
-        imagePath: "./img/quiz/vegetable.png" // 画像パスを追加
+        imagePath: "./img/quiz/vegetable.png"
     },
     {
         question: "船橋市の漁港で水揚げされる特産品は？",
         options: ["ホッキ貝", "ホタテ貝", "ホンビノス貝"],
         answer: 2,
         explanation: "船橋市の特産品としてホンビノス貝が知られています。",
-        imagePath: "./img/quiz/kai.png" // 画像パスを追加
+        imagePath: "./img/quiz/kai.png"
     },
     {
         question: "ふなっしーの性別は？",
         options: ["おとこ", "おんな", "両方"],
-        answer: 1,
+        answer: 2,
         explanation: "ふなっしーは果実なので、両方だそうです。",
-        imagePath: "./img/quiz/nashi.png" // 画像パスを追加
+        imagePath: "./img/quiz/nashi.png"
     },
     {
         question: "船橋市の人口は約何万人？",
         options: ["55万人", "65万人", "75万人"],
         answer: 1,
         explanation: "船橋市の人口は約65万人です。",
-        imagePath: "./img/quiz/graph.png" // 画像パスを追加
+        imagePath: "./img/quiz/graph.png"
     },
     {
         question: "船橋市にあるBリーグバスケットボールチームは？",
         options: ["千葉ブレックス", "千葉ジェッツ", "千葉ロボッツ"],
         answer: 1,
         explanation: "千葉ジェッツの本拠地が船橋市にあります。",
-        imagePath: "./img/quiz/basketball.png" // 画像パスを追加
+        imagePath: "./img/quiz/basketball.png"
     },
     {
         question: "船橋市にある大きな公園の名前は？",
         options: ["ふなばしアンデルセン公園", "ふなばしアルゼンチン公園", "ふなばしアルメニアン公園"],
         answer: 0,
         explanation: "ふなばしアンデルセン公園が有名な公園の１つです。",
-        imagePath: "./img/quiz/fuusya.png" // 画像パスを追加
+        imagePath: "./img/quiz/fuusya.png"
     },
     {
         question: "船橋市に最もゆかりのある作家は？",
         options: ["森鴎外", "芥川龍之介", "太宰治"],
         answer: 2,
         explanation: "太宰治が自身の回想記『十五年間』にて、「最も愛着が深かった」と語っています。",
-        imagePath: "./img/quiz/writer.png" // 画像パスを追加
+        imagePath: "./img/quiz/writer.png"
     },
     {
         question: "船橋市の公式キャラクターは誰ですか？",
         options: ["チーバくん", "ふなっしー", "船えもん"],
         answer: 2,
         explanation: "船橋市の公式キャラクターといえば、もちろん「船えもん」ですね！",
-        imagePath: "./img/quiz/hakama.png" // 画像パスを追加
+        imagePath: "./img/quiz/hakama.png"
     }
 ];
 
