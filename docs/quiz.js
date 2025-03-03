@@ -7,12 +7,6 @@ const quizData = [
     explanation: "船橋市は千葉県に属しています。"
   },
   {
-    question: "船橋市の公式キャラクターは誰ですか？",
-    options: ["船れもん", "船だもん", "船えもん"],
-    answer: 2,
-    explanation: "「船えもん」ですね！"
-  },
-  {
     question: "船橋市にある日本最大級のショッピングモールは？",
     options: ["ららぽーと船橋", "イオンモール幕張新都心", "イオンモール船橋"],
     answer: 0,
@@ -20,7 +14,7 @@ const quizData = [
   },
   {
     question: "船橋市の名産品として有名な野菜は？",
-    options: ["小松菜", "じゃがいも", "にんじん"],
+    options: ["じゃがいも", "こまつな", "にんじん"],
     answer: 1,
     explanation: "船橋市の名産品として小松菜が有名です。"
   },
@@ -59,6 +53,12 @@ const quizData = [
     options: ["森鴎外", "芥川龍之介", "太宰治"],
     answer: 2,
     explanation: "太宰治が自身の回想記『十五年間』にて、「最も愛着が深かった」と語っています。"
+  },
+  {
+    question: "船橋市の公式キャラクターは誰ですか？",
+    options: ["船れもん", "船だもん", "船えもん"],
+    answer: 2,
+    explanation: "もちろん、「船えもん」ですね！"
   }
 ];
 
