@@ -264,7 +264,7 @@ playButton.addEventListener("click", startQuiz);
 backToMenuButton.addEventListener("click", goToMenu);
 quizToMenuButton.addEventListener("click", quitQuiz);
 nextButton.addEventListener("click", nextQuestion);
-restartButton.addEventListener("click", startQuiz);
+// restartButton.addEventListener("click", startQuiz);
 menuButton.addEventListener("click", goToMenu);
 
 // メインメニューを表示
