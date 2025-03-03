@@ -249,15 +249,15 @@ function quitQuiz() {
 function getScoreMessage(score) {
     let message;
     if (score === 100) {
-        message = "完璧！あなたは本当のクイズマスターです！全問正解おめでとうございます！";
+        message = "完璧！あなたは本当のクイズマスターです！";
     } else if (score >= 70 && score <= 90) {
-        message = "素晴らしい結果です！あと少しで満点でした。次回は完璧を目指しましょう！";
+        message = "素晴らしい結果です！次回は完璧を目指しましょう！";
     } else if (score >= 40 && score <= 60) {
-        message = "まずまずの結果です。もう少し頑張れば高得点も夢ではありません！";
+        message = "まずまずの結果です。高得点も夢ではありません！";
     } else {
-        message = "まだまだ伸びしろがあります！もう一度チャレンジして知識を増やしましょう！";
+        message = "もう一度チャレンジして知識を増やしましょう！";
     }
-    const suffix = "また、良ければ作者のプロフィールも見ていってください。";
+    const suffix = "良ければ作者のプロフィールも見ていってください。";
     return message + suffix;
 }
 
