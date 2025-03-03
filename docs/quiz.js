@@ -32,7 +32,7 @@ const quizData = [
         question: "ふなっしーの性別は？",
         options: ["おとこ", "おんな", "両方"],
         answer: 2,
-        explanation: "ふなっしーは果実なので、両方だそうです。",
+        explanation: "ふなっしーは果実なので、「両方」だそうです。",
         imagePath: "./img/quiz/nashi.png"
     },
     {
