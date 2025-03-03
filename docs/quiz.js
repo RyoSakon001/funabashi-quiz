@@ -249,7 +249,7 @@ function endQuiz() {
 
 // イベントリスナーの設定
 playButton.addEventListener("click", startQuiz);
-authorButton.addEventListener("click", showAuthorProfile);
+// authorButton.addEventListener("click", showAuthorProfile);
 backToMenuButton.addEventListener("click", goToMenu);
 quizToMenuButton.addEventListener("click", quitQuiz);
 nextButton.addEventListener("click", nextQuestion);
